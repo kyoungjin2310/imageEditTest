@@ -15,6 +15,7 @@ const Button = styled.button`
   line-height: 30px;
   text-decoration: none;
   outline: none;
+  cursor: pointer;
 `;
 
 const Btn = ({ color, txt }: BtnProps) => {

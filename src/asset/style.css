@@ -1,0 +1,69 @@
+.box {
+  display: inline-block;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.img-preview {
+  overflow: hidden;
+}
+.cropper-modal {
+  opacity: 0.8;
+}
+.cropper-view-box,
+.cropper-face {
+  border-radius: 50%;
+}
+.cropper-view-box {
+  outline: none;
+}
+.cropper-dashed.dashed-h,
+.cropper-dashed.dashed-v,
+.cropper-center {
+  display: none;
+}
+.cropper-line.line-e,
+.cropper-line.line-w {
+  width: 1px;
+  background-color: #ff0086;
+  opacity: 1;
+}
+.cropper-line.line-n,
+.cropper-line.line-s {
+  height: 1px;
+  background-color: #ff0086;
+  opacity: 1;
+}
+.cropper-line.line-e {
+  right: 0;
+}
+.cropper-line.line-w {
+  left: 0;
+}
+.cropper-line.line-n {
+  top: 0;
+}
+.cropper-line.line-s {
+  bottom: 0;
+}
+.cropper-point {
+  opacity: 1;
+}
+.cropper-point.point-e,
+.cropper-point.point-n,
+.cropper-point.point-w,
+.cropper-point.point-s {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .cropper-point.point-se {
+    height: 8px;
+    opacity: 1;
+    width: 8px;
+  }
+}
+
+.cropper-point {
+  width: 8px;
+  height: 8px;
+  background-color: #ff0086;
+}
